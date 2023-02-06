@@ -1,5 +1,3 @@
-
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,26 +7,22 @@ import java.util.List;
  * @date 2023/2/6 10:56
  */
 public class Test2 {
-    public void Test1() {
-        List list = new ArrayList<>();
-        getList(list);
+  public void Test1() {
+    List list = new ArrayList<>();
+    getList(list);
+  }
 
+  public static void getList(List list) {
+    while (true) {
+      System.out.println(list.get(0));
     }
+  }
 
-    public static void getList(List list) {
-        while (true) {
-            System.out.println(list.get(0));
-        }
-    }
+  public void empty() {
+    System.out.println("修改");
+  }
 
-    public void empty() {
-             System.out.println("修改");
-      
-    }
-
-    public void     format(int x, int y) {
-         int a =     0;
-
-    }
-
+  public void format(int x, int y) {
+    int a = 0;
+  }
 }
