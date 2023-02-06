@@ -31,4 +31,8 @@ public class Test2 {
 
     }
 
+    public boolean isEmpty() {
+        return false;
+    }
+
 }
