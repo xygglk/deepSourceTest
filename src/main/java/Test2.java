@@ -22,7 +22,8 @@ public class Test2 {
     }
 
     public void empty() {
-
+             System.out.println("修改");
+      
     }
 
     public void     format(int x, int y) {
