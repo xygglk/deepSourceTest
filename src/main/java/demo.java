@@ -1,6 +1,6 @@
 //测试不必要导入
 import  com.jogamp.common.util.*;
-import netscape.javascript.JSObject;
+import java.lang.String;
 
 import java.util.List;
 import java.util.Map;
